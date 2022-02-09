@@ -1,4 +1,6 @@
-
+body {
+  background-color: black;
+}
 /* 4icon */
 .box4icon {
   display: grid;
