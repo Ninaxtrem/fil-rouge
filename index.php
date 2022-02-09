@@ -9,6 +9,7 @@
 </head>
 <body>
 <?php include("navbar.html"); ?>
+<?php include("index_Antoine.html"); ?>
 <?php include("4icon.html"); ?>
 <?php include("footer.html"); ?>
 </body>
