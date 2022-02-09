@@ -1,3 +1,161 @@
+@font-face {
+  font-family: "titre";
+  src: url(../font/AlfaSlabOne-Regular.ttf);
+}
+@font-face {
+  font-family: "text";
+  src: url(../font/SairaCondensed-Regular.ttf);
+}
+.blueberry_kush {
+  /* mon conteneur Section */
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}
+.white_widow {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #121111;
+}
+.white_widow img {
+  width: 100%;
+  height: 100%;
+}
+.amnesia_haze {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  padding: 1em;
+  background-color: #121111;
+  color: white;
+}
+.lemon_haze {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: "titre";
+}
+.orange_bud {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 0.7em;
+  width: 75%;
+  font-family: "text";
+}
+.atomical_haze {
+  border-radius: 20px;
+  font-size: 1.1em;
+  padding: 2%;
+  color: white;
+  background-color: #121111;
+  border: none;
+  cursor: pointer;
+}
+.atomical_haze:hover {
+  filter: brightness(120%) saturate(120%);
+  background-color: #121111;
+  color: #4bba31;
+}
+.acapulco_gold {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  padding: 1em;
+  background-color: #121111;
+  color: white;
+}
+.alien_kush {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: "titre";
+}
+.belladonna {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 0.7em;
+  width: 75%;
+  font-family: "text";
+}
+.jack_herer {
+  border-radius: 20px;
+  font-size: 1.1em;
+  padding: 2%;
+  color: white;
+  background-color: #121111;
+  border: none;
+  cursor: pointer;
+}
+.jack_herer:hover {
+  filter: brightness(120%) saturate(120%);
+  background-color: #121111;
+  color: #4bba31;
+}
+/* media queries */
+@media (max-width: 1400px) {
+  .auto_jack {
+    width: 75% !important;
+    height: auto !important;
+  }
+  .amnesia_haze {
+    padding: 1em 0 !important;
+  }
+  .acapulco_gold {
+    padding: 1em 0 !important;
+  }
+}
+@media (max-width: 1000px) {
+  .white_widow {
+    display: none !important;
+  }
+  .amnesia_haze {
+    width: 100% !important;
+  }
+  .acapulco_gold {
+    width: 100% !important;
+  }
+}
+@media (max-width: 575px) {
+  .orange_bud {
+    font-size: 0.7em !important;
+  }
+  .belladonna {
+    font-size: 0.7em !important;
+  }
+}
+@media (max-width: 390px) {
+  .orange_bud {
+    width: 90% !important;
+    margin-bottom: 1.5rem !important;
+    font-size: 0.6em !important;
+  }
+  .belladonna {
+    width: 90% !important;
+    margin-bottom: 1.5rem !important;
+    font-size: 0.6em !important;
+  }
+  .lemon_haze {
+    margin-bottom: 1.5rem !important;
+    font-size: 0.8em !important;
+  }
+  .alien_kush {
+    margin-bottom: 1.5rem !important;
+    font-size: 0.8em !important;
+  }
+  .atomical_haze {
+    font-size: 0.8em !important;
+  }
+  .jack_herer {
+    font-size: 0.8em !important;
+  }
+}
 body {
   background-color: black;
 }
@@ -117,7 +275,6 @@ body {
     font-size: 1.4em;
   }
 }
-
 /*nav*/
 :root{
     --hauteur-menu: 60px;
