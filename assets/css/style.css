@@ -1,0 +1,10 @@
+:root{
+    --hauteur-menu: 60px;
+}
+*{
+    padding: 0px;
+}
+.nav_flex{
+    display: flex;
+    border-bottom: 3px black solid;
+}
