@@ -14,6 +14,8 @@ body {
   background-color: #121111;
   font-size: 16px;
 }
+
+/* 4icon */
 .box4icon {
   display: grid;
   justify-content: center;
@@ -25,14 +27,14 @@ body {
   color: #fafafa;
 }
 .fouricon img {
-  width: 256px;
+  width: 226px;
   height: auto;
 }
 .box_icone1, .box_icone2, .box_icone3, .box_icone4 {
   font-family:"text";
   font-size: 1.2em;
 }
-@media (min-width: 600px) and (max-width: 1279px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   .box4icon {
     display: grid;
     justify-content: center;
@@ -49,7 +51,7 @@ body {
     color: #fafafa;
   }
   .fouricon img {
-    width: 256px;
+    width: 226px;
     height: auto;
   }
   .box_icone1 {
@@ -65,7 +67,7 @@ body {
     grid-area: 2 / 2 / 3 / 3;
   }
 }
-@media (min-width:1280px) {
+@media (min-width:1024px) {
   .box4icon {
     display: flex;
   }
@@ -73,5 +75,59 @@ body {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+  }
+}
+/* Footer */
+.footer {
+  color:#fafafa;
+}
+.boxfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.copyright {
+  font-family: "text";
+  font-size: 1.2em;
+}
+.linksocio {
+  display: flex;
+  justify-content: center;
+}
+.link_socio img{
+  width: 50px;
+  height: auto;
+  color: #fafafa;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .footer {
+    display: flex;
+    justify-content: end;
+  }
+  .boxfooter {
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:1024px) {
+  .footer {
+    display: flex;
+    justify-content: end;
+  }
+  .boxfooter {
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.4em;
   }
 }
