@@ -18,7 +18,7 @@ section{
     justify-content: center;
     align-items: center;
 }
-section:before{
+.pallax:before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -27,7 +27,7 @@ section:before{
     background: linear-gradient(to top, #0a2a43, transparent);
     z-index: 10000;
 }
-section:after{
+.parallax:after{
     content: '';
     position: absolute;
     top: 0;
