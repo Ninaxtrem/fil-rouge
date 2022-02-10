@@ -7,7 +7,7 @@ section{
     justify-content: center;
     align-items: center;
 }
-section:before{
+.pallax:before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -16,7 +16,7 @@ section:before{
     background: linear-gradient(to top, #0a2a43, transparent);
     z-index: 3;
 }
-section:after{
+.parallax:after{
     content: '';
     position: absolute;
     top: 0;
@@ -28,7 +28,7 @@ section:after{
     mix-blend-mode: color;
 
 }
-section img{
+.parallax img{
     position: absolute;
     top: 0;
     left: 0;
