@@ -12,6 +12,7 @@
   min-height: 100vh;
   display: flex;
   color: white;
+  z-index: 2;
 }
 .white_widow {
   width: 50%;
@@ -164,6 +165,7 @@ body {
   box-sizing: border-box;
   font-size: 16px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 /* 4icon */
 .box4icon {
@@ -307,6 +309,7 @@ nav{
     background-color: black;
     width: 100%;
     position: relative;
+    z-index: 1;
 }
 .nav-home{
     margin-left: 430px;
@@ -399,44 +402,49 @@ li a{
 }
 /* début burger */
 .burger{
-    display: none;
+  display: none;
 }
 
 .burger-image{
-    min-width: 150px;
-    margin-left: 70px;
+  min-width: 150px;
+  margin-left: 70px;
 }
 
 .burger > a:after{
-    font-size: 30px;
-    margin-left: 7px;
-    display: inline-block;
+  font-size: 30px;
+  margin-left: 7px;
+  display: inline-block;
 }
 
 .burger:hover > .sous-menu{
-    animation: apparitionSousMenu 1s forwards;
+  animation: apparitionSousMenu 1s forwards;
 }
 .burger-hide{
-    font-size: 1em;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 150px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 150px;
 }
 .burger-name{
-    font-size: 1em;
-    margin-top: 10px;
-    padding-left: 5px;
-    color: white;
+  font-size: 1em;
+  margin-top: 10px;
+  padding-left: 5px;
+  
+  color: white;
 }
 
 .nav-burger{
-    font-size: 0.8em;
+  font-size: 0.8em;
 
 }
 
 .deroulant-burger{
-    max-height: 100px;
-    overflow: auto;
+  max-height: 100px;
+  overflow: auto;
+}
+
+.deroulant-burger > li:hover > a{
+  color: #4bba31;
 }
 /*Fin Burger*/
   
@@ -477,7 +485,7 @@ li a{
     .burger{
         display: flex;
         justify-content: end;
-        padding-right: 30px;
+        padding-right: 20px;
     }
 }
 

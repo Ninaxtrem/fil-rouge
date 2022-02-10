@@ -1,14 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-}
-body{
-    background: #0a2a43;
-    min-height: 1500px;
-
-}
 section{
     position: relative;
     width: 100%;
@@ -25,7 +14,7 @@ section:before{
     width: 100%;
     height: 100px;
     background: linear-gradient(to top, #0a2a43, transparent);
-    z-index: 10000;
+    z-index: 3;
 }
 section:after{
     content: '';
@@ -35,7 +24,7 @@ section:after{
     width: 100%;
     height: 100%;
     background: #0a2a43;
-    z-index: 10000;
+    z-index: 4;
     mix-blend-mode: color;
 
 }
@@ -87,10 +76,5 @@ section img{
     height: 400px !important;
     display: flex !important;
   }
-  .body{
-    background: #0a2a43;
-    height: 400px;
-
-}
   }
   
