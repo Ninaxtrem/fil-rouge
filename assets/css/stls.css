@@ -39,7 +39,7 @@ section{
     mix-blend-mode: color;
 
 }
-section img{
+.parallax img{
     position: absolute;
     top: 0;
     left: 0;
@@ -87,9 +87,7 @@ section img{
     height: 400px !important;
     display: flex !important;
   }
-  .body{
-    background: #0a2a43;
-    height: 400px;
+  
 
 }
   }
