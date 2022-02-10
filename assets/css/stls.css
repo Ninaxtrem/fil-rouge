@@ -67,3 +67,30 @@ section img{
     bottom: 0;
     
 }
+
+@media (min-width:399px)
+{
+
+.img_fix{
+  display: none !important;
+}
+}
+
+  
+  @media (max-width:400px)
+  {
+    section{
+    display: none !important;
+  }
+  .img_fix{
+    width: 100vw !important;
+    height: 400px !important;
+    display: flex !important;
+  }
+  .body{
+    background: #0a2a43;
+    height: 400px;
+
+}
+  }
+  
