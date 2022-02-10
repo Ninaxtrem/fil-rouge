@@ -394,6 +394,9 @@ li a{
 .menu-deroulant:hover > .sous-menu{
     animation: apparitionSousMenu 1s forwards;
 }
+.deroulant > li:hover > a{
+  color: #4bba31;
+}
 /* début burger */
 .burger{
     display: none;
