@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.slider {
+  width: 100vw;
+  height: 400px;
+  margin: 0px auto 30px auto;
+}
+
+.slide-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.text {
+  margin: auto;
+  width: 400px;
+  position: absolute;
+  top: 5%;
+  font-family: "Poppins", sans-serif;
+  color: #4bba31;
+  font-size: 34px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  height: 50px;
+  vertical-align: middle;
+  line-height: 40px;
+  z-index: 10;
+}
+
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide-group img{
+  width: 100%;
+  height: auto;
+  
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  box-flex: center;
+}
+
+.slide:first-child {
+  display: block;
+}
+.img_fix{
+  width: 100vw;
+  height: 400px;
+}
+.slider_container{
+  position: relative;
+}
+@media (min-width:1023px){
+  .img_fix{
+  display: none;
+ 
+}
+}
+
+
+@media (max-width:1024px)
+{.slide-group{
+  display: none !important;
+}
+.img_fix{
+  width: 100vw !important;
+  height: 400px !important;
+  display: flex !important;
+}
+.text
+{
+  margin: auto !important;
+  width: 400px !important;
+  position: absolute !important;
+  top: 5% !important;
+  font-family: "Poppins", sans-serif;
+  color: #4bba31;
+  font-size: 34px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  height: 50px;
+  vertical-align: left;
+  line-height: 40px;
+  z-index: 1; 
+}
+}
